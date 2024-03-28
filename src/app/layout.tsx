@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
   parallel
-}: Readonly<{
+}: {
   children: React.ReactNode;
   parallel: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
